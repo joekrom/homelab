@@ -1,6 +1,5 @@
 ---
-- hosts:
-    - primus.evoflow.net
+- hosts: all
   become: yes
   tasks:
     - name: get hostname
